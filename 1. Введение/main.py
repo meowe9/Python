@@ -1,6 +1,9 @@
-for a in 0,1:
-    for b in 0,1:
-        for c in 0,1:
-            for d in 0,1:
-                f = ((a and b) == (not c)) and (b <= d)
-                print (a,b,c,d)
+"""
+print("\"Hello World!\"")
+"""
+
+
+name = input("Введите ваше имя: ")
+age = int(input("Введите ваш возраст: "))
+print('Меня зовут ', name, ' и мне ', age, ' лет.', sep='')
+print(f'Меня зовут {name} и мне {age} лет.')
